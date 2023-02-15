@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalBee Kennels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" type="image/x-icon" href="./Images/android-chrome-192x192.png">
+
+</head>
+<body>
+    <nav class="navbar" id="home">
+        <div class="logo">
+            <span>RoyalBee Kennels</span>
+        </div>
+        <ul id="sidemenu">
+            <li><a href="#home" class="nav-links">Home</a></li>
+            <li><a href="#about" class="nav-links">About RBK</a></li>
+            <li><a href="#gallery" class="nav-links">Gallery</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        <button>
+            <a href="https://instagram.com/royalbeekennels?igshid=YmMyMTA2M2Y=">Contact Us</a>
+        </button>
+    </nav>
+
+    <section class="hero-section">
+        <div class="video-wrap">
+            <video  autoplay muted loop>
+                <source src="./Videos/pexels-yan-6209964.mp4"
+                type="video/mp4">
+            </video>
+        </div>
+        <div class="overlay"></div>
+
+        <div class="row">
+            <div class="column text-container">
+                <h1>Dog Breeder</h1>
+
+                <p>Pugs, Frenchies, American Bulldogs, German Shepherds, Rottweilers. <br>
+                   <br> Pedigree never compromised.
+                </p>
+
+                <div class="feedback">
+                    <h4>4.4/5</h4>
+                    <div class="star-icons">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                    </div>
+                 </div>
+                 <p>From <b>500+ </b>Customer Reviews</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <h1>Get To Know Me</h1>
+
+        <div class="grid-box">
+            <div class="col">
+                <div class="video-wrap">
+                    <video  autoplay muted loop>
+                        <source src="./Videos/pexels-koolshooters-7682708.mp4"
+                        type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="content">
+                    <p class="paragraph">
+                       I am a Certified dog trainer with a proven track record of resolving negative behavior patterns
+                        in dogs. Adept at assessing root causes of behavior problems, stresses, and social anxieties
+                        in dogs. Over 10 years of experience working with many breeds and ages of dogs, using positive
+                        reinforcement and a variety of training methods. Knowledgeable about proper nutrition,
+                        diet, and exercise for dogs. <br>
+                        <br> At <b>RoyalBee Kennels</b>, we mate dogs to produce
+                        puppies. We take care of these grown dogs and puppies and we help them find new 
+                        homes by connecting them to potential owners. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="gallery section" id="gallery">
+        <h1>Gallery</h1>
+
+    <div class="grid-box">
+        <div class="col">
+            <div class="img-wrap">
+                <img src="https://media.istockphoto.com/id/1063466546/photo/puppies-in-animal-shelter.jpg?s=612x612&w=0&k=20&c=XFrFPc6YDFjUjnuWDovhyAy2wk1z_N_h_0MGk0ay8ds=">
+            </div>
+            <!-- -->
+            <div class="text-box">
+                <div class="text">
+                    <h1>"Dogs do speak, but only to those who know how to listen".</h1>
+                </div>
+             </div>
+        </div>
+
+        <div class="col">
+            <div class="img-wrap">
+                <img src="./Images/pexels-cottonbro-studio-6568941.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    </section>
+
+    <section class="gallery section">
+    <div class="grid-box">
+        <div class="col">
+            <div class="img-wrap">
+                <img src="https://media.istockphoto.com/id/1285405053/photo/close-up-of-husky-dog-puppies-being-in-a-cage-and-watching.jpg?s=612x612&w=0&k=20&c=MzHD-V8s6jgHtMF1n6_Ms5Ny09Gpop9ja8lrnnW6xcI=">
+            </div>
+
+        </div>
+
+        <div class="col">
+            <div class="img-wrap">
+                <img src="https://media.istockphoto.com/id/1220274353/photo/litter-of-puppies-in-animal-shelter-waiting-to-be-picked-up-by-fosters.jpg?s=612x612&w=0&k=20&c=PuvUgaoYfd2JzQYFlxrMWRouFcAFNAFeA_awMa6WEOI=" alt="">
+            </div>
+            <div class="text-box">
+                <div class="text">
+                    <h1>"A dog is the only thing on earth that loves you more than you love yourself".</h1>
+                </div>
+             </div>
+        </div>
+    </div>
+    
+    </section>
+
+    <div class="album">
+        <img src="./Images/pexels-samson-katt-5256726.jpg">
+        <img src="./Images/pexels-sarah-chai-7282655.jpg">
+        <img src="./Images/pexels-nikita-telenkov-9534664.jpg">
+        <img src="./Images/pexels-shvets-production-7533317.jpg">
+      </div>
+
+      
+      <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by MishWeb. Copyright  <i class="fa-regular fa-copyright"></i>:  All rights reserved.</p>
+    
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
