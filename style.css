@@ -187,14 +187,6 @@ button{
     color: #b02a37;
 }
 
-/* Gallery */
-/* .grid-box{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 1px;
-    padding: 50px 0;
-} */
 .gallery h1{
     color: #b02a37;
     box-shadow: 0 7px 5px 5px rgba(214, 121, 121, 0.3);
@@ -308,23 +300,20 @@ nav .fa-solid{
         padding: 50px 0;
     }
     .row .text-container h1{
-        font-size: 60px;
+        font-size: 65px;
         padding-top: 28px;
     }
     .text-container p{
         margin-top: -12px;
-        font-size: 18px;
-    }
-    .feedback h4{
-        font-size: 18px;
+        font-size: 20px;
     }
     .about h1{
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: -30px;
         margin-top: 20px;
     }
      .content p{
-        font-size: 18px;
+        font-size: 19px;
         line-height: 28px;
         margin-left: 20px;
     }
