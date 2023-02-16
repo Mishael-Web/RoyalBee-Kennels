@@ -308,20 +308,23 @@ nav .fa-solid{
         padding: 50px 0;
     }
     .row .text-container h1{
-        font-size: 65px;
+        font-size: 60px;
         padding-top: 28px;
     }
     .text-container p{
         margin-top: -12px;
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .feedback h4{
+        font-size: 18px;
     }
     .about h1{
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: -30px;
         margin-top: 20px;
     }
      .content p{
-        font-size: 19px;
+        font-size: 18px;
         line-height: 28px;
         margin-left: 20px;
     }
@@ -343,7 +346,7 @@ nav .fa-solid{
 }
 
 /* For tablet */
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:800px){
     .navbar{
         flex-direction: column;
         justify-content: center;
@@ -391,7 +394,7 @@ nav .fa-solid{
         margin-bottom: 10px;
     
 }
-}
+} */
 
 
 
