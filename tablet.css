@@ -1,0 +1,49 @@
+@media only screen and (max-width:800px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar ul{
+        flex-direction: column-reverse;
+        display: unset;
+        margin-left: unset;
+        background: #d7b5b5;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    .navbar ul li{
+        margin: 40px 5px;
+    }
+    .navbar ul li:hover{
+        background-color: #fff;
+    }
+    .navbar .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    .fa-xmark{
+        margin-left: 130px;
+        color: #bb2d3b;
+    }
+    .fa-bars{
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        color: #bb2d3b;
+    }
+    .navbar span{
+        margin-left: 0;
+        font-size: 2rem;
+    }
+    .navbar button{
+        margin-top: 35px;
+        margin-bottom: 10px;
+    
+}
+}
