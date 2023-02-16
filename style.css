@@ -285,7 +285,8 @@ nav .fa-solid{
     }
     .navbar span{
         margin-left: 0;
-        font-size: 1.5rem;
+        font-size: 10px;
+        padding-right: 20px;
     }
     .navbar button{
         margin-top: 35px;
@@ -304,7 +305,7 @@ nav .fa-solid{
         padding-top: 28px;
     }
     .text-container p{
-        margin-top: -12px;
+        margin-top: 12px;
         font-size: 18px;
     }
     .feedback h4{
@@ -321,7 +322,7 @@ nav .fa-solid{
         margin-left: 20px;
     }
     .gallery h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .text-box h1{
         font-size: 20px;
