@@ -343,7 +343,7 @@ nav .fa-solid{
 }
 
 /* For tablet */
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:800px){
     .navbar{
         flex-direction: column;
         justify-content: center;
@@ -391,7 +391,7 @@ nav .fa-solid{
         margin-bottom: 10px;
     
 }
-}
+} */
 
 
 
