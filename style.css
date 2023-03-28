@@ -8,6 +8,11 @@
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 91%;
     margin: 0 auto;
@@ -33,11 +38,13 @@ body{
     padding: 1.3rem 0;
     box-shadow: 0 7px 5px 5px rgba(0,0,0,0.3);
     font-family: 'Fraunces', sans-serif;
+    margin-bottom: -80px;
+    margin-top: -80px;
 }
 .navbar ul{
     display: flex; 
-    gap: 5rem;
-    margin-left: 30rem;
+    gap: 4rem;
+    margin-left: 20rem;
  }
  .nav-links{
     font-size: 1.2rem;
@@ -48,11 +55,11 @@ body{
     color: #ec1127;
     transition: background-color .3s ease;
  }
- .navbar span{
-    font-weight: 700;
-    font-size: 2rem;
-    font-family: 'Fraunces', sans-serif;
-    color: #b02a37;
+
+.logo img{
+    width: 250px;
+    margin-right: 15px;
+    padding-top: 10px;
 }
 a{
     text-decoration: none;
@@ -91,7 +98,7 @@ button{
 
 /* hero video */
 .video-wrap{
-    width: 90%;
+    width: 92%;
 }
 .hero-section video{
     width: 100%;
@@ -183,8 +190,9 @@ button{
 .content b{
     color: #b02a37;
 }
-.about h1{
+.services h1{
     color: #b02a37;
+    font-size: 38px;
 }
 
 .gallery h1{
@@ -209,7 +217,7 @@ button{
 }
 .content p{
     font-size: 23px;
-    margin-top: 30px;
+    margin-top: -3px;
     line-height: 30px;
     margin-right: 20px;
 }
@@ -224,19 +232,153 @@ button{
     height: 85%;
 }
 
-/* copyright */
+/* About me */
+#meet{
+    padding: 80px 0;
+    color: #ababab;
+    font-size: 19px;
+}
+
+.bow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.meet-col-1{
+    flex-basis: 35%;
+}
+.meet-col-1 img{
+    width: 100%;
+    height: 89%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.meet-col-2{
+    flex-basis: 60%;
+}
+
+.name{
+    text-align: center;
+    color:#b02a37;
+    font-family: 'Fraunces', sans-serif;
+}
+.para{
+    padding: 15px 0;
+    font-size: 23px;
+    line-height: 29px;
+    color: #4c3030;
+    margin-bottom: 45px;
+}
+
+
+.heading{
+    font-size: 55px;
+    font-weight: 600;
+    color:#b02a37;
+     font-family: 'Fraunces', sans-serif;
+}
+
+/* footer */
 .copyright{
     width: 100%;
-    text-align: center;
-    padding: 10px 15%;
-    background: #c4b5b5;
-    font-weight: 300;
-    margin-top: 1px;
-    color: black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 80px 0 30px;
+    line-height: 20px;
+    background: linear-gradient(to right, #4e3737, #843b23);
+    color: #fff;
 }
+
+.rights{
+    flex-basis: 25%;
+    padding: 25px;
+}
+
+.rights:nth-child(3), .rights:nth-child(4){
+    flex-basis: 15%;
+}
+
+.pics{
+    width: 190px;
+    border-radius: 25px;
+}
+
+.copyright h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
 .copyright i{
-    color: #b02a37;
+    color:  #c4b5b5;
+    margin-right: 15px;
+    font-size: 25px;
 }
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copy{
+    text-align: center;
+}
+
+.copy i{
+    color: #b1a9aa;
+    font-size: 18px;
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+}
+
 
 
 /* CSS for small screen */
@@ -279,18 +421,31 @@ nav .fa-solid{
     }
     .fa-bars{
         position: absolute;
-        top: 30px;
+        padding-top: 30px;
         right: 20px;
         color: #bb2d3b;
     }
-    .navbar span{
-        margin-left: 0;
-        font-size: 10px;
-        padding-right: 20px;
-    }
+
     .navbar button{
-        margin-top: 35px;
-        margin-bottom: 10px;
+        position: absolute;
+        margin-left: 150px;
+        width: 120px; 
+        font-size: 10px;
+    }
+
+    .video-wrap{
+        width: 90%;
+    }
+
+    .col video{
+        margin-left: 15px;
+        padding-bottom: 20px;
+    }
+
+    .logo img{
+        margin-right: 180px;
+        margin-bottom: -20px;
+        padding-top: -15px;
     }
     /* body styles */
     .grid-box{
@@ -301,8 +456,8 @@ nav .fa-solid{
         padding: 50px 0;
     }
     .row .text-container h1{
-        font-size: 60px;
-        padding-top: 28px;
+        font-size: 61px;
+        padding-top: 65px;
     }
     .text-container p{
         margin-top: 12px;
@@ -311,13 +466,14 @@ nav .fa-solid{
     .feedback h4{
         padding-top: 20px;
     }
+
     .about h1{
         font-size: 35px;
         margin-bottom: -30px;
         margin-top: 20px;
     }
      .content p{
-        font-size: 19px;
+        font-size: 18px;
         line-height: 28px;
         margin-left: 20px;
     }
@@ -328,14 +484,64 @@ nav .fa-solid{
         font-size: 20px;
         padding-top: 10px;
     }
-    .copyright{
-        font-size: 11px;
-    }
     .album{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
     }
+
+    .copyright{
+        bottom: unset;
+        margin-top: -50px;
+    }
+
+    .rights{
+        flex-basis: 100%;
+    }
+    
+    .rights:nth-child(3), .rights:nth-child(4){
+        flex-basis: 100%;
+    }
+
+    .copy i{
+        color: #b1a9aa;
+        font-size: 13px;
+    }
+
+    .copy{
+        font-size: 13px;
+    }
+
+    .social-icons .fa-brands{
+        font-size: 18px;
+    }
+
+    /* About me*/
+    .heading{
+        font-size: 40px;
+        text-align: center;
+    }
+    .meet-col-1, .meet-col-2{
+        flex-basis: 100%;
+    }
+    .meet-col-1{
+        margin-bottom: 30px;
+    }
+    .para{
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .meet-col-2{
+        font-size: 15px;
+    }
+    .name{
+        font-size: 15px;
+    }
+
+#meet{
+    margin-bottom: -30px;
+}
+
 }
 
 

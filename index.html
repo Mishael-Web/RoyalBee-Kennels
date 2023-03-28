@@ -1,194 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RoyalBee Kennels</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="icon" type="image/x-icon" href="./Images/android-chrome-192x192.png">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./Images/android-chrome-192x192.png"
+    />
+    <script src="https://kit.fontawesome.com/a99f72f905.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <nav class="navbar" id="home">
-        <div class="logo">
-            <span>RoyalBee Kennels</span>
-        </div>
-        <ul id="sidemenu">
-            <li><a href="#home" class="nav-links">Home</a></li>
-            <li><a href="#about" class="nav-links">About RBK</a></li>
-            <li><a href="#gallery" class="nav-links">Gallery</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-        </ul>
-        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        <button>
-            <a href="https://instagram.com/royalbeekennels?igshid=YmMyMTA2M2Y=">Contact Us</a>
-        </button>
+      <div class="logo">
+        <img src="Images/RBK Logo.jpg" alt="">
+      </div>
+      <ul id="sidemenu">
+        <li><a href="#home" class="nav-links">Home</a></li>
+        <li><a href="#services" class="nav-links">Services</a></li>
+        <li><a href="#gallery" class="nav-links">Gallery</a></li>
+        <li><a href="#meet" class="nav-links">About Me</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      <button>
+        <a href="https://instagram.com/royalbeekennels?igshid=YmMyMTA2M2Y="
+          >Contact Us</a
+        >
+      </button>
     </nav>
 
     <section class="hero-section">
-        <div class="video-wrap">
-            <video  autoplay muted loop>
-                <source src="./Videos/pexels-yan-6209964.mp4"
-                type="video/mp4">
-            </video>
-        </div>
-        <div class="overlay"></div>
+      <div class="video-wrap">
+        <video autoplay muted loop>
+          <source src="./Videos/pexels-yan-6209964.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="overlay"></div>
 
-        <div class="row">
-            <div class="column text-container">
-                <h1>Dog Breeder</h1>
+      <div class="row">
+        <div class="column text-container">
+          <h1>Dog Breeder</h1>
 
-                <p>Pugs, Frenchies, American Bulldogs, German Shepherds, Rottweilers. <br>
-                   <br> Pedigree never compromised.
-                </p>
+          <p>
+            Pugs, Frenchies, American Bulldogs, German Shepherds, Rottweilers.
+            <br />
+            <br />
+            Pedigree never compromised.
+          </p>
 
-                <div class="feedback">
-                    <h4>4.4/5</h4>
-                    <div class="star-icons">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-regular fa-star"></i>
-                    </div>
-                 </div>
-                 <p>From <b>500+ </b>Customer Reviews</p>
+          <div class="feedback">
+            <h4>4.4/5</h4>
+            <div class="star-icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
             </div>
+          </div>
+          <p>From <b>500+ </b>Customer Reviews</p>
         </div>
+      </div>
     </section>
 
-    <section class="about section" id="about">
-        <h1>Get To Know Me</h1>
+    <section class="services section" id="services">
+      <h1>Services</h1>
 
-        <div class="grid-box">
-            <div class="col">
-                <div class="video-wrap">
-                    <video  autoplay muted loop>
-                        <source src="./Videos/pexels-koolshooters-7682708.mp4"
-                        type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="content">
-                    <p class="paragraph">
-                       I am a Certified dog trainer with a proven track record of resolving negative behavior patterns
-                        in dogs. Adept at assessing root causes of behavior problems, stresses, and social anxieties
-                        in dogs. Over 10 years of experience working with many breeds and ages of dogs, using positive
-                        reinforcement and a variety of training methods. Knowledgeable about proper nutrition,
-                        diet, and exercise for dogs. <br>
-                        <br> At <b>RoyalBee Kennels</b>, we mate dogs to produce
-                        puppies. We take care of these grown dogs and puppies and we help them find new 
-                        homes by connecting them to potential owners. 
-                    </p>
-                </div>
-            </div>
+      <div class="grid-box">
+        <div class="col">
+          <div class="video-wrap">
+            <video autoplay muted loop>
+              <source
+                src="./Videos/pexels-koolshooters-7682708.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
 
+        <div class="col">
+          <div class="content">
+            <p class="paragraph">
+              At <b>RoyalBee Kennels</b>, we mate dogs to produce puppies. We
+              take care of these grown dogs and puppies and we help them find
+              new homes by connecting them to potential owners. <br>
+              <br> We are adept at assessing root causes of behavior problems with a  
+              proven track record of resolving negative behavior patterns,
+              stresses, and social anxieties in dogs, using positive reinforcement
+              and a variety of training methods. We are Knowledgeable about proper
+              nutrition, diet, and exercise for dogs. <br>
+              <br> We also provide dog security services (K9 Security Services) for your homes and occasions.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="gallery section" id="gallery">
-        <h1>Gallery</h1>
+      <h1>Gallery</h1>
 
-    <div class="grid-box">
+      <div class="grid-box">
         <div class="col">
-            <div class="img-wrap">
-                <img src="https://media.istockphoto.com/id/1063466546/photo/puppies-in-animal-shelter.jpg?s=612x612&w=0&k=20&c=XFrFPc6YDFjUjnuWDovhyAy2wk1z_N_h_0MGk0ay8ds=">
+          <div class="img-wrap">
+            <img
+              src="https://media.istockphoto.com/id/1063466546/photo/puppies-in-animal-shelter.jpg?s=612x612&w=0&k=20&c=XFrFPc6YDFjUjnuWDovhyAy2wk1z_N_h_0MGk0ay8ds="
+            />
+          </div>
+          <!-- -->
+          <div class="text-box">
+            <div class="text">
+              <h1>
+                "Dogs do speak, but only to those who know how to listen".
+              </h1>
             </div>
-            <!-- -->
-            <div class="text-box">
-                <div class="text">
-                    <h1>"Dogs do speak, but only to those who know how to listen".</h1>
-                </div>
-             </div>
+          </div>
         </div>
 
         <div class="col">
-            <div class="img-wrap">
-                <img src="./Images/pexels-cottonbro-studio-6568941.jpg" alt="">
-            </div>
+          <div class="img-wrap">
+            <img src="./Images/pexels-cottonbro-studio-6568941.jpg" alt="" />
+          </div>
         </div>
-    </div>
-    
+      </div>
     </section>
 
     <section class="gallery section">
-    <div class="grid-box">
+      <div class="grid-box">
         <div class="col">
-            <div class="img-wrap">
-                <img src="https://media.istockphoto.com/id/1285405053/photo/close-up-of-husky-dog-puppies-being-in-a-cage-and-watching.jpg?s=612x612&w=0&k=20&c=MzHD-V8s6jgHtMF1n6_Ms5Ny09Gpop9ja8lrnnW6xcI=">
-            </div>
-
+          <div class="img-wrap">
+            <img
+              src="Images/pexels-tom-fisk-10535553.jpg"
+            />
+          </div>
         </div>
 
         <div class="col">
-            <div class="img-wrap">
-                <img src="https://media.istockphoto.com/id/1220274353/photo/litter-of-puppies-in-animal-shelter-waiting-to-be-picked-up-by-fosters.jpg?s=612x612&w=0&k=20&c=PuvUgaoYfd2JzQYFlxrMWRouFcAFNAFeA_awMa6WEOI=" alt="">
+          <div class="img-wrap">
+            <img
+              src="https://media.istockphoto.com/id/1220274353/photo/litter-of-puppies-in-animal-shelter-waiting-to-be-picked-up-by-fosters.jpg?s=612x612&w=0&k=20&c=PuvUgaoYfd2JzQYFlxrMWRouFcAFNAFeA_awMa6WEOI="
+              alt=""
+            />
+          </div>
+          <div class="text-box">
+            <div class="text">
+              <h1>
+                "A dog is the only thing on earth that loves you more than you
+                love yourself".
+              </h1>
             </div>
-            <div class="text-box">
-                <div class="text">
-                    <h1>"A dog is the only thing on earth that loves you more than you love yourself".</h1>
-                </div>
-             </div>
+          </div>
         </div>
-    </div>
-    
+      </div>
     </section>
 
     <div class="album">
-        <img src="./Images/pexels-samson-katt-5256726.jpg">
-        <img src="./Images/pexels-sarah-chai-7282655.jpg">
-        <img src="./Images/pexels-nikita-telenkov-9534664.jpg">
-        <img src="./Images/pexels-shvets-production-7533317.jpg">
-      </div>
-
-      
-      <div class="copyright">
-        <p>Made with <i class="fa-solid fa-heart"></i> by MishWeb. Copyright  <i class="fa-regular fa-copyright"></i>:  All rights reserved.</p>
-    
+      <img src="./Images/pexels-samson-katt-5256726.jpg" />
+      <img src="./Images/pexels-sarah-chai-7282655.jpg" />
+      <img src="./Images/pexels-nikita-telenkov-9534664.jpg" />
+      <img src="./Images/pexels-shvets-production-7533317.jpg" />
     </div>
 
+    <div id="meet">
+      <div class="meet-container">
+        <div class="bow">
+          <div class="meet-col-1">
+            <img src="Images/CEO.jpg" alt="" />
+            <h3 class="name">Linus Bethel M. (CEO)</h3>
+          </div>
+
+          <div class="meet-col-2">
+            <h1 class="heading">About Me</h1>
+            <p class="para">
+              I am the CEO of <b>Royalbee Kennels</b> Nigeria, a leading breeder of
+              high-quality Rottweilers, Caucasian Shepherds, South African
+              Boerboels, and Pug dogs in Lagos Nigeria. <br />
+              <br />
+              I have been passionate about dogs since I was a child and have
+              been involved in the breeding and care of dogs for over 10 years.
+              I have a degree in Business and I have completed internship and
+              certifications in dog breeding, genetics, and animal care. <br />
+              <br />
+              My mission at <b>RoyalBee Kennels</b> Nigeria is to provide our clients
+              with healthy, well-bred puppies that are carefully selected for
+              their outstanding temperament, health, and conformation. We take
+              pride in our dogs and are committed to providing them with the
+              best possible care, nutrition, and training. <br />
+              <br />
+              As the CEO of  <b>RoyalBee Kennels</b>  Nigeria, I am dedicated to ensuring
+              that our breeding program maintains the highest standards of
+              excellence and that our clients receive exceptional customer
+              service. I am always looking for ways to improve our breeding
+              program and stay up-to-date with the latest advancements in the
+              field of dog breeding. <br />
+              <br />
+              Thank you for considering  <b>RoyalBee Kennels</b>  Nigeria for your next
+              furry family member.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <footer>
+      <div class="copyright">
+        <div class="rights">
+          <img src="Images/RBK Logo.jpg" class="pics">
+        </div>
+
+        <div class="rights">
+          <h3>Office <div class="underline"><span></span></div></h3>
+          <p>16, Oyebola Tiamiyu Street,</p>
+          <p>Oshin Bus stop, Ayoba Ipaja</p>
+          <p>Lagos State, Nigeria</p>
+          <p class="email-id"><i class="fa-solid fa-paper-plane"></i>royalbeekennels@gmail.com</p>
+          <h4><i class="fa-solid fa-square-phone"></i>+2348167578382</h4>
+        </div>
+
+        <div class="rights">
+          <h3>Quick Links <div class="underline"><span></span></div></h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#meet">About Me</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://instagram.com/royalbeekennels?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+         <a href="https://www.facebook.com/profile.php?id=100011932717717"> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+
+        <hr>
+
+        <p class="copy">
+          Made by MishWeb. Copyright
+          <i class="fa-regular fa-copyright"></i>: All rights reserved.
+        </p>
+
+      </div>
+ 
+
+    </footer>
+
     <script>
-        var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+          sidemenu.style.right = "0";
+      }
+      function closemenu(){
+          sidemenu.style.right = "-200px";
+      }
+  </script>
